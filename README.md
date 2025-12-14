@@ -32,19 +32,19 @@ GUI development, and clean object-oriented design.
 
 ## Project Structure
 crypto_dashboard/
-├── main.py
+├── main.py                
 ├── components/
-│ ├── ticker.py
-│ ├── orderbook.py
-│ ├── technical.py
-│ └── futures.py
+│   ├── __init__.py
+│   ├── ticker.py        
+│   ├── orderbook.py    
+│   ├── technical.py     
+│   └── futures.py    
 ├── utils/
-│ ├── binance_api.py
-│ └── indicators.py
-├── config.py
-├── requirements.txt
-├── ui_design.png
-└── README.md
+│   ├── __init__.py
+│   ├── binance_api.py
+│   └── indicators.py     
+├── config.py           
+└── requirements.txt      
 
 ## How to Run the Project
 1. Install dependencies:
