@@ -32,14 +32,17 @@ GUI development, and clean object-oriented design.
 
 ## Project Structure
 crypto_dashboard/
+
 ├── main.py                
 ├── components/
+│
 │   ├── __init__.py
 │   ├── ticker.py        
 │   ├── orderbook.py    
 │   ├── technical.py     
 │   └── futures.py    
 ├── utils/
+│
 │   ├── __init__.py
 │   ├── binance_api.py
 │   └── indicators.py     
